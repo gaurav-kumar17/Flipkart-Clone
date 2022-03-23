@@ -1,0 +1,31 @@
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    /* vertical-align hota hai; */
+    align-items: center; 
+}
+.btn{
+    padding: 5px 8px;
+    background:var(--main-bg-color);
+    color: white;
+    border: 3px solid #cfdaad;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+.search .btn:hover{
+    font-weight: bold;
+}
+.my-2{
+    margin: 12px 25px;
+}
+
+.my-1{
+    margin: 5px 0px;
+}
+.text-center{
+    text-align: center;
+}
+img{
+    border-radius: 10px;
+}

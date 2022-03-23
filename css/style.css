@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Lato&family=Redressed&family=Shizuru&display=swap');
+
+:root{
+    --main-bg-color:#2874f0;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+    display: flex;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 121px;
+    padding: 0 45px 0 25px;
+}
+header{
+    background: var(--main-bg-color);
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 13px;
+
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+nav ul li a:hover{
+    /* color:rgb(0, 255, 157); */
+    font-weight: bold;
+    
+}
+.search{
+    display: flex;
+    align-items: center;
+    
+}
+
+.search input{
+    /* width: 540px; */
+    width: 30vw;
+    height: 27px;
+    margin:0 15px 0 20px;
+    /* border-radius: 1px; */
+    padding: 0 15px;
+}
+.search button{
+    font-weight:900px;
+}
+.card{
+    /* background-color: red; */
+    max-width: 91vw;
+    margin:25px auto;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+.cards{
+    display: flex;
+    /* justify-content: center;
+    flex-direction: row; */
+    /* overflow: scroll; */
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 40px;
+}
+.slider{
+    /* display: inline; */
+    width: 50vw;
+    margin: 12px auto 70px auto;
+    overflow: hidden;
+}
+.card h2{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+.color{
+    font-weight:700;
+    color:rgb(5, 200, 5);
+}
+.container{
+    min-height:calc(100vh - 58px - 8vh);
+}
+footer{
+    height: 8vh;
+    background-color:var(--main-bg-color);
+    
+    color:white;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
